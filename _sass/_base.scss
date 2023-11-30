@@ -272,6 +272,20 @@ p {
   }
 }
 
+.plain-skillset {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  .item {
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  .skill-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
+
 .footer {
   padding-top: 30px;
   .copyright {
@@ -284,4 +298,3 @@ p {
     color: $heart;
   }
 }
-

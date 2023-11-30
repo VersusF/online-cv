@@ -29,6 +29,9 @@
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .plain-skillset {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
