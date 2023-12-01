@@ -34,7 +34,7 @@ sidebar:
     title: Lingue
     info:
       - idiom: Italiano
-        level: Madrelingue
+        level: Madrelingua
 
       - idiom: Inglese
         level: Buono
@@ -69,13 +69,13 @@ education:
       details: |
         Curriculum in cyber-security e metodi formali, con focus su analisi statica.
         Tesi di laurea in ambito Smart Contract Ethereum.
-        Voto 110/110 e Lode
+        Voto 110/110 e Lode.
     - degree: Laurea in informatica
       university: Università di Verona
       time: 2015 - 2018
       details: |
         Tesi di laurea in ambito reverse engineering di applicazioni Android.
-        Voto 110/110 e Lode
+        Voto 110/110 e Lode.
 
 experiences:
   title: Esperienze lavorative
@@ -119,7 +119,7 @@ certifications:
 
 projects:
   title: Progetti
-  intro: Progetti secondari portati avanti nel tempo libero
+  intro: Progetti secondari portati avanti nel tempo libero.
   assignments:
     - title: Ethersolve
       link: "https://github.com/SeUniVr/EtherSolve"
@@ -131,16 +131,16 @@ projects:
 
 oss:
   title: Contribuzioni Open Source
-  intro: Mi piace utilizzare software open source e, quando posso, contribuire allo sviluppo degli stessi.
+  intro: Cerco di utilizzare software open source e, quando posso, contribuire allo sviluppo degli stessi.
   contributions:
     - title: Bruno
       link: "https://docs.usebruno.com/"
-      tagline: "Client per API Rest. Ho aggiunto una funzione per clonare gli ambienti"
+      tagline: "Client per API Rest. Implementata una funzione per clonare gli ambienti"
 
 publications:
   title: Pubblicazioni
   intro: |
-    Il lavoro di tesi in università ha portato alla pubblicazione di due articoli
+    Il lavoro di tesi in università ha portato alla pubblicazione di due articoli.
   papers:
     - title: "EtherSolve: Computing an Accurate Control-Flow Graph from Ethereum Bytecode"
       link: "https://ieeexplore.ieee.org/abstract/document/9462980/"
