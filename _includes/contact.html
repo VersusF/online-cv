@@ -13,6 +13,18 @@
     </li>
     {% endif %}
 
+    {% if sidebar.birth-date %}
+    <li class="calendar"><i class="fas fa-calendar"></i>
+      <a href="#">{{ sidebar.birth-date }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.address %}
+    <li class="address"><i class="fas fa-map-marker-alt"></i>
+      <a href="#">{{ sidebar.address }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
       <a href="">{{ sidebar.citizenship }}</a>
@@ -94,6 +106,12 @@
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Versione PDF</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.driving-license %}
+    <li class="driving-license"><i class="fas fa-car"></i>
+      <a href="#">{{ sidebar.driving-license }}</a>
     </li>
     {% endif %}
 
