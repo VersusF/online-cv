@@ -42,4 +42,7 @@
      color: #ffffff !important;
    }
 
+   .plain-skillset {
+      grid-template-columns: repeat(2, 1fr);
+    }
 }
