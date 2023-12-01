@@ -28,7 +28,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-  pdf: https://versusf.github.io/online-cv/print
+  pdf: # https://versusf.github.io/online-cv/print
 
   languages:
     title: Lingue
