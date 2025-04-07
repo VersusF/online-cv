@@ -23,7 +23,8 @@ sidebar:
   linkedin: filippo-contro
   xing:
   github: versusf
-  telegram: # add your nickname without '@' sign
+  telegram: versusnewsletter # add your nickname without '@' sign
+  telegramLabel: neVSletter
   gitlab:
   bitbucket:
   twitter:
@@ -57,11 +58,11 @@ sidebar:
 career-profile:
   title: Profilo
   summary: |
-    Software engineer e full-stack developer.
-    Ho esperienza nello sviluppo di applicazioni full-stack, compresa la parte infrastrutturale e cloud per il deploy finale.
-    Adoro partire dal problema, analizzare alle possibili soluzioni e implementare la più adatta al risultato finale desiderato.
-    Cerco sempre di curare lo sviluppo e scrivere codice pulito, leggibile e mantenibile. Leggere codice dovrebbe essere un piacere.
-    Amo l'ambiente linux e le tecnologie open-source.
+    Ingegnere del software e sviluppatore full-stack con esperienza nello sviluppo di applicazioni end-to-end,
+    inclusa la progettazione infrastrutturale e l'implementazione su cloud per il deploy finale.
+    Mi dedico all'analisi dei problemi, alla valutazione delle soluzioni più efficaci e alla loro implementazione
+    per raggiungere gli obiettivi desiderati. Presto particolare attenzione alla scrittura di codice pulito, leggibile e mantenibile,
+    rendendo il processo di lettura del codice un'esperienza piacevole. Sono appassionato dell'ambiente Linux e delle tecnologie open-source.
 
 education:
   title: Formazione
@@ -84,7 +85,19 @@ experiences:
   title: Esperienze lavorative
   info:
     - role: Software engineer
-      time: 2020 - Presente
+      time: 2024 - attuale
+      company: Centro Studi Alma Iura srl SB, Verona
+      details: |
+        Responsabile del team di sviluppo software.
+        Ho realizzato un software per la gestione di pratiche legali di diritto bancario.
+        Ho realizzato uno smistatore automtico di PEC per la gestione delle comunicazioni legali.
+        Ho pianificato e coordinato lo sviluppo di una web-app per la gestione completa di un evento con centinaia di partecipanti incentrato
+        sul diritto bancario e sul mercato dei crediti.
+        Per ogni progetto ho effettuato l'analisi funzionale, la progettazione dell'architettura e ho gestito e mantenuto l'infrastruttura su cloud AWS.
+
+        Tecnologie: Typescript, NodeJS, Postgresql, Docker, Vue, AWS, Terraform, Figma, Git, Linux.
+    - role: Software engineer
+      time: 2020 - 2024
       company: Bit Mobility - Mirai, Bussolengo VR
       details: |
         Responsabile del back-end per il server, della progettazione e della manutenzione del database MySQL,
@@ -165,16 +178,15 @@ skills:
   plainSkills:
     - Typescript e NodeJS
     - AWS & Terraform
-    - MySQL e Progettazione DB
+    - SQL & Progettazione DB
     - Docker
-    - Angular
-    - React native
+    - VueJS & React native
     - Jenkyns
     - Elastic
     - Python
-    - Java
     - Git & Linux
     - Inkscape
+    - Figma
 
 footer: >
   Grazie di <i class="fas fa-heart"></i> a <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> per il template

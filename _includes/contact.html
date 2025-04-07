@@ -39,7 +39,7 @@
 
     {% if sidebar.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegramLabel || sidebar.telegram }}</a>
     </li>
     {% endif %}
 
